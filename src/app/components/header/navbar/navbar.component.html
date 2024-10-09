@@ -1,0 +1,11 @@
+<ul [class]="ulClass">
+  <!-- qui eseguo un ciclo for e prendo item dal mio array navElements (simile a un forEach) -->
+  <li *ngFor="let item of navElements" class="d-block">
+    <!-- qui genero il contenuto del mio <li> -->
+    <a
+      [routerLink]="['/main', item, item + '.component.html']"
+      [class]="aClass"
+      >{{ item }}</a
+    >
+  </li>
+</ul>
