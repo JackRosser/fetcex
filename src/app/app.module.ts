@@ -11,6 +11,7 @@ import { ActivePostsComponent } from './components/main/active-posts/active-post
 import { InactivePostsComponent } from './components/main/inactive-posts/inactive-posts.component';
 import { PostDetailComponent } from './components/main/post-detail/post-detail.component';
 import { HomeComponent } from './components/main/home/home.component';
+import { CardsComponent } from './home/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './components/main/home/home.component';
     ActivePostsComponent,
     InactivePostsComponent,
     PostDetailComponent,
-    HomeComponent
+    HomeComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
